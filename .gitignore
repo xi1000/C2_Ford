@@ -1,0 +1,28 @@
+# 此仓库仅提交 Software 的源码、文档和必要静态资源。
+/*
+!/.gitignore
+!/Software/
+!/Software/**
+
+# 本机 Python / Conda 环境
+/Software/.venv/
+/Software/**/.venv/
+
+# 用户项目数据、SQLite 标注结果与导出图片
+/Software/projects/
+
+# PyInstaller 临时构建目录与发布包
+/Software/build/
+/Software/release/
+
+# Python 缓存与测试缓存
+/Software/**/__pycache__/
+/Software/**/*.py[cod]
+/Software/.pytest_cache/
+/Software/.mypy_cache/
+
+# 本地编辑器、系统临时文件
+/Software/.vscode/
+/Software/.idea/
+/Software/**/~$*
+/Software/**/*.tmp
